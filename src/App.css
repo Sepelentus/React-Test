@@ -1,3 +1,5 @@
+
+/* Default react css */
 .App {
   text-align: center;
 }
@@ -35,4 +37,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Custom react css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.Base-div {
+  background-color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.Header-text {
+  font-family: 'Poppins', sans-serif;
+  color: #999999;
+  font-size:64px;
+}
+
+.Forest-image{
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

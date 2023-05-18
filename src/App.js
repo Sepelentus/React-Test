@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import forest from './forest.jpg'
+import React from 'react';
 import './App.css';
 
-function App() {
+function Header(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='Base-div container'>
+      <div className='row'>
+        <div className='col-lg-8'>
+          <header className='Header-text'>
+            Vive la naturaleza
+          </header>
+        </div>
+
+        <div className='col-lg-4'/>
+        <hr></hr>
+      <img className='Forest-image' src={forest} alt='forest'></img>
+      </div>
     </div>
   );
 }
 
-export default App;
+export default Header;
